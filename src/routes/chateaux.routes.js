@@ -1,6 +1,9 @@
 import { Router } from 'express';
 import { chateauxController } from '../controllers/chateaux.controller.js';
-import { serviceMiddleware, authMiddleware } from '../middlewares/auth.middleware.js';
+import {
+  serviceMiddleware,
+  authMiddleware,
+} from '../middlewares/auth.middleware.js';
 
 const router = Router();
 
